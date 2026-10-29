@@ -1,6 +1,6 @@
 // Bootprints: a canvas-baked cleated sole (height → normal + depression mask + alpha), stamped as instanced decals
 // that reuse the regolith shader, so their albedo, micro-normals and raymarched shadows match the ground exactly.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 import { patchRegolith } from './terrain.js';
 import { mulberry32 } from './noise.js';
 

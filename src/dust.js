@@ -1,6 +1,6 @@
 // Kicked regolith: every grain is a closed-form ballistic arc under lunar gravity. No air, so no drag and no
 // billowing — the spray rises, falls on a clean parabola and stops dead when it meets the ground.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 import { mulberry32 } from './noise.js';
 
 export const G_MOON = 1.62;

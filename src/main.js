@@ -1,10 +1,9 @@
 import './tailwind.css';
-import { Engine, THREE, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
-import { Assets } from '../../src/core/assets.js';
-import { Pointer } from '../../src/core/input.js';
-import { smoothScroll, gsap, elementProgress } from '../../src/core/scroll.js';
-// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
-import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+import { Engine, THREE, damp, clamp, smooth, lerp } from './core/engine.js';
+import { Assets } from './core/assets.js';
+import { Pointer } from './core/input.js';
+import { smoothScroll, gsap, elementProgress } from './core/scroll.js';
+import { preloader, cursor, magnetic } from './core/ui.js';
 import { TUNE, buildHeight, HF, LAYOUT, regolithTextures, heightTexture, patchRegolith, sunUniform, nearTerrain, farTerrain, farHeightfield, rocks } from './terrain.js';
 import { Prints } from './prints.js';
 import { Dust } from './dust.js';
@@ -59,8 +58,8 @@ const loader = preloader({
 });
 
 // ─── Assets (downloads run while the rim is generated on the CPU) ─────────────
-const pAstro = assets.gltf('models/artemis/astro-rig.glb');
-const pEarth = assets.texture('img/artemis/earth.webp');
+const pAstro = assets.gltf('models/astro-rig.glb');
+const pEarth = assets.texture('img/earth.webp');
 await new Promise(r => setTimeout(r, 60));
 const H = buildHeight();
 
@@ -414,7 +413,6 @@ engine.onResize((w, h, dpr) => {
 // ─── Boot ─────────────────────────────────────────────────────────────────────
 gsap.set('.hero-title .ln > span', { yPercent: 105 });
 gsap.set('.eyebrow, .hero-sub, .hero-cta, .scroll-hint, .nav, .hud', { opacity: 0, y: 12 });
-// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('artemis', { theme: 'dark', corner: 'bl' });
 cursor({ color: '#ffffff', blend: 'difference', size: 30 });
 magnetic();
 const lenis = smoothScroll({ lerp: 0.08 });

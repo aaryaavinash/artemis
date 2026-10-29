@@ -2,8 +2,8 @@
 // a polar far mesh with massifs and a crater that never sees the Sun, and the regolith shader:
 // world-space albedo + micro-crater normals, raymarched heightfield shadows with a physically sized penumbra,
 // and a partial Lommel–Seeliger term (the reason the Moon looks flat and bright under a grazing sun).
-import { THREE, smooth } from '../../src/core/engine.js';
-import { bakeTexture, fbmTexture } from '../../src/core/textures.js';
+import { THREE, smooth } from './core/engine.js';
+import { bakeTexture, fbmTexture } from './core/textures.js';
 import { makeNoise, mulberry32 } from './noise.js';
 
 export const HF = { cx: 22, cz: -4, half: 64, N: 1024 };

@@ -1,6 +1,7 @@
 // Build the web astronaut: Meshy rigged mesh + PBR maps from the static Meshy model (same UV atlas)
 // + walk / run / idle clips merged from the separate Meshy animation exports.
-//   node examples/artemis/tools/build-astro.mjs <out.glb>
+// ORIGINAL (preserved, not deleted — disabled by comment): //   node examples/artemis/tools/build-astro.mjs <out.glb>
+//   node tools/build-astro.mjs <out.glb>
 import { NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 const io = new NodeIO().registerExtensions(ALL_EXTENSIONS);

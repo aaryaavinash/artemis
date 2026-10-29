@@ -2,7 +2,7 @@
 // The gait phase is advanced by *distance* (not time), so planted boots never slide at any scroll speed:
 // walk → lunar lope (the run clip, slowed, with extra 1/6 g flight) → "time-lapse" when you scroll hard.
 // Idle is synthesised (the Meshy idle preset is broken): suit rest pose, arms eased down, breathing.
-import { THREE, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
+import { THREE, damp, clamp, smooth, lerp } from './core/engine.js';
 
 const V = () => new THREE.Vector3();
 

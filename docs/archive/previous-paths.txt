@@ -1,0 +1,30 @@
+// ORIGINAL (preserved, not deleted — disabled by comment): previous nested paths
+// import { THREE, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
+// import { THREE, normalize, prepModel } from '../../src/core/engine.js';
+// import { fbmNormal } from '../../src/core/textures.js';
+//   const g = await assets.gltf('models/artemis/lander.glb');
+// import { THREE } from '../../src/core/engine.js';
+// import { Engine, THREE, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
+// import { Assets } from '../../src/core/assets.js';
+// import { Pointer } from '../../src/core/input.js';
+// import { smoothScroll, gsap, elementProgress } from '../../src/core/scroll.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+// const pAstro = assets.gltf('models/artemis/astro-rig.glb');
+// const pEarth = assets.texture('img/artemis/earth.webp');
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('artemis', { theme: 'dark', corner: 'bl' });
+// import { THREE, smooth } from '../../src/core/engine.js';
+// import { bakeTexture, fbmTexture } from '../../src/core/textures.js';
+// import { THREE } from '../../src/core/engine.js';
+//             <img src="/img/artemis/habitat.webp" alt="Four curtained berths inside the habitat, with a porthole showing Earth above the lunar horizon" loading="lazy" width="1000" height="1250">
+//               <img src="/img/artemis/training.webp" alt="A suited trainee walking on simulated regolith under a harsh spotlight, a support cable rising from the suit" loading="lazy" width="1000" height="1250">
+//               <img src="/img/artemis/centrifuge.webp" alt="A human centrifuge: a long steel arm with a capsule sweeping around a circular concrete hall" loading="lazy" width="1000" height="1250">
+// import { THREE } from '../../src/core/engine.js';
+//   <link rel="stylesheet" href="./examples/artemis/style.css">
+//   <script type="module" src="./examples/artemis/main.js"></script>
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from './core/ui.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('artemis', { theme: 'dark', corner: 'bl' });
+// ORIGINAL (preserved, not deleted — disabled by comment): old root HTML image paths
+//             <img src="/img/artemis/habitat.webp" alt="Four curtained berths inside the habitat, with a porthole showing Earth above the lunar horizon" loading="lazy" width="1000" height="1250">
+//               <img src="/img/artemis/training.webp" alt="A suited trainee walking on simulated regolith under a harsh spotlight, a support cable rising from the suit" loading="lazy" width="1000" height="1250">
+//               <img src="/img/artemis/centrifuge.webp" alt="A human centrifuge: a long steel arm with a capsule sweeping around a circular concrete hall" loading="lazy" width="1000" height="1250">

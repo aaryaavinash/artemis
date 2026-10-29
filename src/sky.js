@@ -1,7 +1,7 @@
 // Earth over the horizon (NB2 Blue-Marble plate on a sphere, lit by our own sun so its phase is honest),
 // a thin atmosphere shell, a sun disc for the rare reverse angle, and a star field that only appears
 // when the "camera" opens up its exposure near the end of the page.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 import { mulberry32 } from './noise.js';
 
 export function makeEarth(map, { dist = 11500, ang = 5.2 } = {}) {

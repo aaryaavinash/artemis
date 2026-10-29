@@ -1,7 +1,7 @@
 // The outpost at the end of the traverse: the Meshy lander, a regolith-shielded habitat, a vertical solar mast
 // that turns to follow the low sun, and orange trail beacons along the walk.
-import { THREE, normalize, prepModel } from '../../src/core/engine.js';
-import { fbmNormal } from '../../src/core/textures.js';
+import { THREE, normalize, prepModel } from './core/engine.js';
+import { fbmNormal } from './core/textures.js';
 import { LAYOUT } from './terrain.js';
 
 export function paintedMetalFix(mat) {
@@ -24,7 +24,7 @@ export async function buildOutpost({ assets, renderer, H, scene }) {
   const group = new THREE.Group();
   scene.add(group);
   const L = LAYOUT.lander;
-  const g = await assets.gltf('models/artemis/lander.glb');
+  const g = await assets.gltf('models/lander.glb');
   const lander = g.scene;
   normalize(lander, 6.6, { axis: 'y' });
   prepModel(lander, renderer, { env: 1.0, onMat: m => paintedMetalFix(m) });

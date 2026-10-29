@@ -1,4 +1,4 @@
-# 15 · Artemis — "Scroll to walk on the Moon"
+# Artemis — "Scroll to walk on the Moon"
 Brand: **Artemis** — lunar tourism: a seven-day stay at a south-pole outpost.
 
 ## Signature interaction
